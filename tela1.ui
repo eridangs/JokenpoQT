@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1158</width>
+    <height>874</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,17 +20,67 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>110</y>
-      <width>411</width>
-      <height>281</height>
+      <x>200</x>
+      <y>220</y>
+      <width>721</width>
+      <height>381</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #ffffff;</string>
+     <string notr="true">background-color: #ffffff;
+border-radius: 10px;</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>240</y>
+      <width>441</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #3019DA;
+background-color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Pedra Papel Tesoura</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>450</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #D9D9D9;
+border-radius: 10px;
+color: #FF0000;
+box-shadow: 0px 4px 6px #0000004D;
+</string>
+    </property>
+    <property name="text">
+     <string>ENTRAR</string>
     </property>
    </widget>
   </widget>
@@ -39,7 +89,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1158</width>
      <height>26</height>
     </rect>
    </property>
